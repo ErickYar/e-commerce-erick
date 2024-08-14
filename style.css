@@ -84,7 +84,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
+  /* padding: 20px 80px; */
   background: #e3e6f3;
   box-shadow: 0 5px rgba(0, 0, 0, 0.06);
   width: 100%;
@@ -132,7 +132,14 @@ body {
   left: 20px;
 
 }
+#mobile{
+  display: none;
+  align-items: center;
 
+}
+#close{
+  display: none;
+}
 /*home page*/
 
 #hero {
@@ -328,7 +335,8 @@ font-size: 25px;
 
 #sm-banner {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   flex-wrap: wrap;
 
 }
@@ -528,26 +536,206 @@ footer a{
     margin: 10px 0 15px 0;
     
   }
-/*es parte tine que tener color independiente como asi 
+
+  /*esta es la mejor forma de de poner los logos de redes sociales */
+/*en esta parte tiene que tener color independiente como asi 
 youtube con su color rojo asi */
   footer .follow i:hover,
   footer a:hover{
     color: #088178;
+
   }
 
+  footer .follow i.fa-youtube:hover{
+    color: red;
+  }
+  footer .follow i.fa-pinterest:hover{
+    color: red;
+  }
+  footer .follow i.fa-facebook-f:hover{
+    color: #0165E1;
+  }
+  footer .follow i.fa-twitter:hover{
+    color: #1D9BF0;
+  }
+  /* para el instagram se tiene que poner padding para que se note el degrade de los colores 
+  si lo desea si tambien se pone de esta forma solo el color*/
+  footer .follow i.fa-instagram:hover{
+    /* background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); */
+    color: #dc2743;
+    /* padding: 2px; */
+    /* text-align: center; */
+    /* border-radius: 10px; */
+  }
   footer .copyright{
     width: 100%;
+    font-size: 10px;
     text-align: center;
+    color: #222;
   }
 
 
 
 
   @media (max-width:799px){
-    #navar{
+    #navbar{
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
+      align-items: flex-start ;
       justify-content: flex-start;
+      position:fixed;
+      padding: 10px 50px 10px 0px;
+      top: 0;
+      right:-300px;
+      height: 100vh;
+      width: 300px;
+      background-color: #e3e6f3;
+      box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+      /* padding: 80px 0 0 10px; */
+      transform: 0.3s;
+      
     }
+    #navbar.active{
+      right: 0px;
+    }
+    #navbar li{
+margin-bottom: 25px;
+
+    }
+    #mobile{
+      display: flex;
+      align-items: center;
+          
+    }
+    #mobile i{
+      color: #1a1a1a;
+      font-size: 24px;
+      padding-left: 20px;
+    }
+  
+  #close{
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
   }
+  #lg-bag{
+    display: none;
+  }
+  #hero{
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+  #feature{
+    justify-content: center;
+  }
+  #feature .fe-box{
+       margin: 15px 15px;
+  }
+#product1 .pro-container{
+justify-content: center;
+}
+#product1 .pro{
+  margin:15px;
+}
+#banner {
+  height: 20vh;
+}
+#sm-banner .banner-box{
+  min-width: 100%;
+  height: 30vh;
+}
+
+#banner3{
+  padding: 0 40px;
+}
+
+#banner3 {
+  width: 100%;
+}
+
+#newsletter .form{
+ 
+  width: 70%;
+}
+  }
+
+@media (max-width:477px) {
+  
+    .section-p1 {
+      padding: 10px 30px;
+  }
+ 
+  #header {
+    padding:20px;
+    }
+    h1{
+      font-size: 38px;
+    }
+    h2{
+      font-size: 50px;
+    }
+    #hero{
+      padding: 0 20px;
+      background-position: 55%;
+    }
+    #feature{
+justify-content: space-between;
+    }
+    #feature .fe-box{
+      width: 155px;
+      margin: 0 0 15px 0;
+    }
+    #product1 {
+     width: 100%;
+  }
+#banner{
+  height: 40vh;
+}
+#sm-banner .banner-box{
+  height: 40vh;
+}
+#sm-banner .banner-box2{
+  margin-top: 20px;
+}
+#banner3{
+  padding: 0 20px;
+}
+#banner3 .banner-box{
+width: 100%;
+}
+  #newsletter .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+footer .copyright{
+  text-align: start;
+/* color: #060603; */
+}
+
+ }
+
+
+ /* Shop Page */
+
+ #page-header{
+  background-image: url("img/banner/b1.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+ }
+
+ #page-header h2,
+ #page-header p{
+color: #fff;
+ }
