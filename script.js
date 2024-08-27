@@ -43,5 +43,4 @@ generateStars('#stars1');
 generateStars('#stars2');
 generateStars('#stars3');
 generateStars('#stars4',4);/*poniendo un numero del 1 al 5 se pone las estrellas*/
-generateStars('#stars5');
-s
+generateStars('#stars5',3);
