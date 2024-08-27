@@ -1119,11 +1119,15 @@ margin-bottom: 30px;
   #feature {
     justify-content: center;
   }
-
+ 
   #feature .fe-box {
     margin: 15px 15px;
   }
-
+  #feature .fe-box img {
+    max-width:150px; /* Ancho máximo de la imagen */
+    height: 150px; /* Mantiene la proporción de la imagen */
+     
+  }
   #product1 .pro-container {
     justify-content: center;
   }
@@ -1204,6 +1208,12 @@ margin-bottom: 30px;
     width: 155px;
     margin: 0 0 15px 0;
   }
+  #feature .fe-box img {
+    max-width:100px; /* Ancho máximo de la imagen */
+    height: 100px; /* Mantiene la proporción de la imagen */
+     
+  }
+
 
   #product1 .pro {
     width: 100%;
