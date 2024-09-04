@@ -40,7 +40,9 @@ p {
   color: #465b52;
   margin: 15px 0 20px 0;
 }
-
+a{
+  text-decoration: none;
+}
 .section-p1 {
   padding: 40px 80px;
 }
@@ -675,6 +677,16 @@ footer .copyright {
   justify-content: space-between;
 }
 
+
+#prodetails button {
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
 .small-img-col {
   flex-direction: 24%;
   cursor: pointer;
@@ -1200,7 +1212,7 @@ margin-bottom: 30px;
     background-position: 55%;
   }
 
-  #feature {
+  #feature{
     justify-content: space-between;
   }
 
