@@ -387,13 +387,10 @@ nth-child para personalizar a cada uno */
   background-size: cover;
   background-position: center;
   padding: 30px;
-
 }
 
 #sm-banner .banner-box2 {
   background-image: url("img/banner/b10.jpg");
-
-
 }
 
 #sm-banner h4 {
@@ -444,12 +441,10 @@ nth-child para personalizar a cada uno */
 
 #banner3 .banner-box2 {
   background-image: url("img/banner/b4.jpg");
-
 }
 
 #banner3 .banner-box3 {
   background-image: url("img/banner/b18.jpg");
-
 }
 
 
@@ -508,8 +503,6 @@ nth-child para personalizar a cada uno */
   outline: none;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-
-
 }
 
 #newsletter button {
@@ -519,8 +512,6 @@ nth-child para personalizar a cada uno */
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-
-
 
 footer {
   display: flex;
@@ -533,7 +524,6 @@ footer .col {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
-
 }
 
 footer .logo {
@@ -572,7 +562,6 @@ footer .follow i {
 footer .install .row img {
   border: 1px solid #088178;
   border-radius: 6px;
-
 }
 
 footer .install img {
@@ -670,7 +659,8 @@ footer .copyright {
 #prodetails .single-pro-image {
   width: 40%;
   margin-right: 50px;
-}
+
+ }
 
 
 #prodetails-carteras {
@@ -681,6 +671,9 @@ footer .copyright {
 #prodetails-carteras .single-pro-image {
   width: 40%;
   margin-right: 50px;
+
+
+
 }
 
 
